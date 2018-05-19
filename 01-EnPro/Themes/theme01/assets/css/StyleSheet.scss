@@ -1,0 +1,801 @@
+﻿body {
+    .scroll {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    #header {
+        .top {
+            background-color: #0466af;
+            height: 36px;
+
+            p {
+                font-family: Arial;
+                font-size: 14px;
+                color: #ffffff;
+                padding-top: 6px;
+            }
+            input{
+                    padding-top: 4px;
+                border:none;
+                background:none;
+                &::placeholder{
+                    color:#83beea;
+
+                }
+            }
+            .right {
+                right: 0;
+                float: right;
+
+                i, p {
+                    float: left;
+                }
+
+                p {
+                    padding-right: 20px;
+
+                    &:last-child {
+                        padding: 0;
+                        padding-top: 7px;
+                    }
+                }
+
+                i {
+                    padding-right: 10px;
+                    padding-top: 3px;
+                }
+            }
+        }
+
+        .bottom {
+            .logo {
+                float: left;
+            }
+         #ttwmenu{
+               background:none;
+               padding-top:20px;
+           }
+            .menu {
+                float: right;
+                padding-top: 30px;
+
+                ul {
+                    li {
+                        display: inline-block;
+                        margin-left: 25px;
+
+                        a {
+                            font-size: 14px;
+                            font-weight: bold;
+                            text-transform: uppercase;
+                            color: #333333;
+                            font-family: Arial;
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #slider {
+
+        .khungAnh{
+            overflow:hidden;
+            .KhungAnhCrop   {
+                width:100%;
+                height:100%;
+            }
+        }
+        .slick-next:before {
+            content: url(../../../../pic/next.png);
+            font-size: 30px;
+            color: #ffffff;
+        }
+
+        .slick-next {
+            top: 247px;
+            right: 50px;
+        }
+
+        .slick-prev:before {
+            content: url(../../../../pic/prv.png);
+            font-size: 30px;
+            color: #ffffff;
+        }
+
+        .slick-prev {
+            top: 250px;
+            left: 50px;
+            z-index: 999;
+        }
+
+        .slick-slider {
+            margin-bottom: 0;
+        }
+
+        height: 530px;
+
+        .slick {
+            .bgr {
+                overflow: hidden;
+                width: 100%;
+            }
+
+            .content {
+                height: 513px;
+                margin-top: -513px;
+                position: relative;
+                color: #000000;
+
+                h3 {
+                    font-size: 35px;
+                    font-family: Arial;
+                    padding-top: 115px;
+                }
+
+                .title {
+                    font-family: 'Myriad Pro';
+                    font-size: 40px;
+                    font-weight: bold;
+                    padding: 0;
+                }
+
+                p {
+                    font-family: Arial;
+                    font-size: 20px;
+                    padding: 25px 0 30px 0;
+                }
+
+                .clickLeft {
+                    float: left;
+                    padding-right: 5px;
+
+                    a {
+                        padding: 16px 32px 16px 28px;
+                        background-color: #0466af;
+                        border: #0466af 1px solid;
+                        border-radius: 4px;
+                        color: #ffffff;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        font-weight: bold;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                .clickRight {
+                    a {
+                        padding: 16px 32px 16px 28px;
+                        background-color: #0466af;
+                        border: #0466af 1px solid;
+                        border-radius: 4px;
+                        color: #ffffff;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        font-weight: bold;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #course {
+        height: 741px;
+        font: normal normal normal 14px/1 FontAwesome;
+
+        .slick-dots {
+            li {
+                button:before {
+                    font-size: 30px;
+                    color: #0466af;
+                }
+            }
+        }
+
+        h3 {
+            font-family: 'Myriad Pro';
+            color: #0466af;
+            font-size: 32px;
+            font-weight: bold;
+            padding-top: 70px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            font-family: Arial;
+            padding-bottom: 55px;
+        }
+
+        .item {
+            height: 444px;
+
+            .border {
+                box-shadow: 0px 2px 1px 1px #999;
+                text-align: center;
+                height: 430px;
+
+                img {
+                    width: 100%;
+                }
+
+                .title {
+                    padding: 20px 30px 20px 30px;
+
+                    a {
+                        text-align: center;
+                        color: #0466af;
+                        font: 18px bold;
+                        font-family: 'Myriad Pro';
+                    }
+                }
+
+                p {
+                    text-align: center;
+                    font-size: 14px;
+                    color: #333;
+                    padding: 0 30px 18px 30px;
+                }
+
+                .more {
+                    padding-top: 30px;
+
+                    a {
+                        padding: 10px 10px 10px 32px;
+                        background-color: #0466af;
+                        border: #0466af;
+                        border-radius: 4px;
+                        color: #7ebeed;
+                        font-size: 14px;
+                        font-family: Arial;
+                    }
+                }
+            }
+        }
+    }
+
+    #loiIch {
+        background-color: #0466af;
+        height: 697px;
+
+        h3 {
+            font-family: 'Myriad Pro';
+            color: #fff;
+            font-size: 32px;
+            font-weight: bold;
+            padding-top: 70px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 14px;
+            color: #83beea;
+            text-align: center;
+            font-family: Arial;
+            padding-bottom: 55px;
+        }
+
+        .item {
+            text-align: center;
+
+            img {
+            }
+
+            .title {
+                padding: 20px 113px 15px 113px;
+
+                a {
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-family: Arial;
+                    color: #fff;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            p {
+                font-size: 14px;
+                color: #83beea;
+                font-family: Arial;
+                padding: 0 75px 25px 75px;
+            }
+
+            .more {
+                a {
+                    padding: 10px 35px 10px 35px;
+                    border: 1px solid #83beea;
+                    border-radius: 3px;
+                    font-size: 14px;
+                    color: #83beea;
+                    font-family: Arial;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    #seri {
+        height: 605px;
+        background-color: #f5f5f5;
+
+        .slick-next:before {
+            content: url(../../../../pic/next1.png);
+            font-size: 20px;
+            color: #ffffff;
+            font: normal normal normal 14px/1 FontAwesome;
+        }
+
+        .slick-next {
+            top: 123px;
+            right: 31px;
+        }
+
+        .slick-prev:before {
+            content: url(../../../../pic/prv1.png);
+            font-size: 20px;
+            color: #ffffff;
+            font: normal normal normal 14px/1 FontAwesome;
+        }
+
+        .slick-prev {
+            top: 123px;
+            left: 15px;
+            z-index: 999;
+        }
+
+        .slick-dots {
+            li {
+                button:before {
+                    font-size: 30px;
+                    color: #0466af;
+                }
+            }
+        }
+
+        h3 {
+            font-family: 'Myriad Pro';
+            color: #0466af;
+            font-size: 32px;
+            font-weight: bold;
+            padding-top: 70px;
+            text-align: center;
+        }
+
+        .img {
+            padding: 0 44% 50px 44%;
+
+            img {
+                text-align: center;
+                background: none;
+            }
+        }
+
+        .item {
+            height: 305px;
+
+            .border {
+                box-shadow: 0px 2px 1px 1px #999;
+
+                img {
+                    width: 100%;
+                }
+
+                .title {
+                    padding: 25px 84px 15px 84px;
+
+                    a {
+                        font-size: 16px;
+                        font-weight: bold;
+                        font-family: Arial;
+                        color: #0466af;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                .view {
+                    padding: 0 65px 35px 65px;
+
+                    p {
+                        color: #666;
+                        float: left;
+                    }
+
+                    i {
+                        padding-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    #feel {
+        text-align: center;
+        background: url(../../../../pic/bgr2.jpg) center no-repeat;
+
+        h3 {
+            font-family: 'Myriad Pro';
+            color: #ffffff;
+            font-size: 32px;
+            font-weight: bold;
+            padding-top: 35px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 14px;
+            color: #83beea;
+            text-align: center;
+            font-family: Arial;
+            padding-bottom: 55px;
+        }
+
+        #page {
+
+            .js .slider-single > div:nth-child(1n+3) {
+                display: none;
+            }
+
+            .js .slider-single.slick-initialized > div:nth-child(1n+3) {
+                display: block;
+            }
+
+            .is-active {
+                opacity: 1 !important;
+            }
+
+            .slider-current {
+                width: 120px;
+                height: 120px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .slick-next:before {
+                content: url(../../../../pic/next.png);
+                font-size: 30px;
+                color: #ffffff;
+            }
+
+            .slick-next {
+                top: 50px;
+                right: -110px;
+            }
+
+            .slick-prev:before {
+                content: url(../../../../pic/prv.png);
+                font-size: 30px;
+                color: #ffffff;
+            }
+
+            .slick-prev {
+                top: 50px;
+                left: -40px;
+            }
+
+            .slick-slider {
+                margin-bottom: 0;
+
+                img {
+                }
+            }
+
+            .row {
+                .slider-nav {
+                    padding-left: 88px;
+                    width: 765px;
+                    margin-left: 163px;
+                    height: 100px;
+
+                    .item {
+                        width: 0 !important;
+                        padding-left: 137px;
+                        opacity: 0.5;
+                    }
+                }
+
+                .slider-single {
+                    color: #ffffff;
+
+                    h4 {
+                        font-size: 14px;
+                        font-weight: bold;
+                        padding-top: 30px;
+                    }
+
+                    .content {
+                        font-size: 20px;
+                        color: #ffffff;
+                        padding: 0;
+                    }
+
+                    p {
+                        color: #ffffff;
+                        padding: 0 130px 130px 50px;
+
+                        a {
+                            color: #83beea;
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #introduce {
+        background-color: #f5f5f5;
+        height: 370px;
+        padding-top: 30px;
+
+        .left {
+            img {
+                padding-left: 40px;
+                padding-top: 20px;
+            }
+        }
+
+        .right {
+            text-align: left;
+
+            h3 {
+                font-size: 24px large;
+                color: #333;
+                padding-bottom: 10px;
+                font-family: Arial;
+                font-weight: bold;
+            }
+
+            h4 {
+                color: #0466af;
+                text-transform: uppercase;
+                font-family: Arial;
+                font-size: 17px;
+                padding-bottom: 25px;
+            }
+
+            p {
+                padding-bottom: 25px;
+            }
+
+            .more {
+                a {
+                    padding: 10px 35px 10px 35px;
+                    color: #83beea;
+                    background-color: #0466af;
+                    border-radius: 4px;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+
+                    i {
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    #footer {
+        padding-top: 50px;
+        background-color: #000f1c;
+
+        .left {
+            font-size: 13px;
+            color: #999999;
+            padding-right: 33px;
+
+            strong {
+                color: #ffffff;
+            }
+
+            img {
+                float: left;
+                padding-right: 10px;
+            }
+
+            .top {
+                p {
+                    padding-right: 64px;
+                }
+            }
+
+            .top, .mid, .bottom {
+                padding-bottom: 25px;
+            }
+        }
+
+        .right {
+            h3 {
+                font-size: 15px;
+                font-family: Arial;
+                color: #0466af;
+                padding-bottom: 20px;
+            }
+
+            p {
+                padding-top: 30px;
+                color: #999;
+            }
+        }
+    }
+    
+}
+@charset "UTF-8";
+
+  /*
+    Có nhiều độ phân giải theo các màn hình từ smartphone, tablet, pc
+    320, 375, 414, 480, 568, 601, 640, 667, 736, 768, 800, 906, 1024, 1200, 1280, 1360, 1366 trở lên
+    Lấy chuẩn nhỏ nhất là 320 cho trường hợp smartphone dựng dọc rồi chia theo khoảng
+/*================Đối với Tất Thành code bản pc trước, vì vậy sẽ viết ngược từ to về bé như sau================*/
+  /*css mặc định dành cho trường hợp pc 1360, 1366px trở lên*/ 
+  @media (max-width: 1359px) {
+    body {
+      /*Bắt đầu từ 1200 tính tương ứng với trường hợp lớn hơn tablet - bắt đầu của PC - thường là 4 hoặc 5 cột*/ } 
+
+
+
+  }
+  @media (max-width: 1199px) {
+  body {
+      margin:0;
+      padding:0;
+
+      /*Bắt đầu từ 1200 tính tương ứng với trường hợp tablet quay ngang - bắt đầu của PC - thường là 3 hoặc 4 cột*/ } 
+  #header{
+      .top{
+          input{
+              display:none;
+              width:0;
+          }
+          .left{
+    p{
+              font-size:12px;
+
+          }
+          }
+      
+      }
+      .bottom   {
+          .logo{
+              float:left;
+          }
+          #menu-button:before{
+              content:none;
+
+          }
+           #menu-button:after{
+              content:none;
+
+          }
+           #menu-button{
+               float:left;
+           }
+      }
+  }
+   #loiIch{
+        img{
+            width:100%;
+        }
+    }
+    #seri{
+        .border{
+            height:225px;
+
+       
+        .title{
+            padding:0px 0px 0px 0px !important;
+        }
+        .view{
+            padding:0px 0px 0px 0px !important;
+
+        }
+         }
+    }
+    #feel{
+        .slider-nav{
+            margin-left:69px!important;
+        }
+    }
+    #footer{
+        .left{
+            p{
+                font-size:10px;
+            }
+            
+        }
+        .right{
+            padding-left:30px;
+        }
+    }
+
+
+     }
+  @media (max-width: 991px) {
+    body {
+      /*Bắt đầu từ 768 tính tương ứng với trường hợp tablet dựng dọc - thường là 2 hoặc 3 cột*/ }
+    #header{
+        .top{
+        .left{
+         
+        }
+        }
+        
+    }
+   #footer{
+        .left{
+            p{
+                font-size:10px;
+            }
+            
+        }
+        .right{
+            padding-left:40px;
+        }
+    }
+   #seri{
+       button{
+           top:30%;
+       }
+   }
+
+      }
+  @media (max-width: 767px) {
+    body {
+      /*Bắt đầu từ 480 tính tương ứng với trường hợp mobile quay ngang - thường là 2 cột*/ }
+
+
+
+
+      }
+
+
+  @media (max-width: 479px) {
+    body {
+      /*Bắt đầu từ mobile, tức css viết ngoài cùng là css cho trường hợp mobile dựng dọc - thường là 1 cột, padding left right 15px*/ }
+
+
+
+
+      }
+
+
+
+
+
+

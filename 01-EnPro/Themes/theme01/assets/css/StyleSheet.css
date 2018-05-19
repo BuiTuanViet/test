@@ -1,0 +1,469 @@
+﻿@charset "UTF-8";
+body .scroll {
+  margin-right: -15px;
+  margin-left: -15px; }
+
+body a:hover {
+  text-decoration: none; }
+
+body #header .top {
+  background-color: #0466af;
+  height: 36px; }
+  body #header .top p {
+    font-family: Arial;
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 6px; }
+  body #header .top input {
+    padding-top: 4px;
+    border: none;
+    background: none; }
+    body #header .top input::placeholder {
+      color: #83beea; }
+  body #header .top .right {
+    right: 0;
+    float: right; }
+    body #header .top .right i, body #header .top .right p {
+      float: left; }
+    body #header .top .right p {
+      padding-right: 20px; }
+      body #header .top .right p:last-child {
+        padding: 0;
+        padding-top: 7px; }
+    body #header .top .right i {
+      padding-right: 10px;
+      padding-top: 3px; }
+
+body #header .bottom .logo {
+  float: left; }
+
+body #header .bottom #ttwmenu {
+  background: none;
+  padding-top: 20px; }
+
+body #header .bottom .menu {
+  float: right;
+  padding-top: 30px; }
+  body #header .bottom .menu ul li {
+    display: inline-block;
+    margin-left: 25px; }
+    body #header .bottom .menu ul li a {
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #333333;
+      font-family: Arial; }
+      body #header .bottom .menu ul li a:hover {
+        text-decoration: none; }
+
+body #slider {
+  height: 530px; }
+  body #slider .khungAnh {
+    overflow: hidden; }
+    body #slider .khungAnh .KhungAnhCrop {
+      width: 100%;
+      height: 100%; }
+  body #slider .slick-next:before {
+    content: url(../../../../pic/next.png);
+    font-size: 30px;
+    color: #ffffff; }
+  body #slider .slick-next {
+    top: 247px;
+    right: 50px; }
+  body #slider .slick-prev:before {
+    content: url(../../../../pic/prv.png);
+    font-size: 30px;
+    color: #ffffff; }
+  body #slider .slick-prev {
+    top: 250px;
+    left: 50px;
+    z-index: 999; }
+  body #slider .slick-slider {
+    margin-bottom: 0; }
+  body #slider .slick .bgr {
+    overflow: hidden;
+    width: 100%; }
+  body #slider .slick .content {
+    height: 513px;
+    margin-top: -513px;
+    position: relative;
+    color: #000000; }
+    body #slider .slick .content h3 {
+      font-size: 35px;
+      font-family: Arial;
+      padding-top: 115px; }
+    body #slider .slick .content .title {
+      font-family: 'Myriad Pro';
+      font-size: 40px;
+      font-weight: bold;
+      padding: 0; }
+    body #slider .slick .content p {
+      font-family: Arial;
+      font-size: 20px;
+      padding: 25px 0 30px 0; }
+    body #slider .slick .content .clickLeft {
+      float: left;
+      padding-right: 5px; }
+      body #slider .slick .content .clickLeft a {
+        padding: 16px 32px 16px 28px;
+        background-color: #0466af;
+        border: #0466af 1px solid;
+        border-radius: 4px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold; }
+        body #slider .slick .content .clickLeft a:hover {
+          text-decoration: none; }
+    body #slider .slick .content .clickRight a {
+      padding: 16px 32px 16px 28px;
+      background-color: #0466af;
+      border: #0466af 1px solid;
+      border-radius: 4px;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: bold; }
+      body #slider .slick .content .clickRight a:hover {
+        text-decoration: none; }
+
+body #course {
+  height: 741px;
+  font: normal normal normal 14px/1 FontAwesome; }
+  body #course .slick-dots li button:before {
+    font-size: 30px;
+    color: #0466af; }
+  body #course h3 {
+    font-family: 'Myriad Pro';
+    color: #0466af;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 70px;
+    text-align: center; }
+  body #course p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    font-family: Arial;
+    padding-bottom: 55px; }
+  body #course .item {
+    height: 444px; }
+    body #course .item .border {
+      box-shadow: 0px 2px 1px 1px #999;
+      text-align: center;
+      height: 430px; }
+      body #course .item .border img {
+        width: 100%; }
+      body #course .item .border .title {
+        padding: 20px 30px 20px 30px; }
+        body #course .item .border .title a {
+          text-align: center;
+          color: #0466af;
+          font: 18px bold;
+          font-family: 'Myriad Pro'; }
+      body #course .item .border p {
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        padding: 0 30px 18px 30px; }
+      body #course .item .border .more {
+        padding-top: 30px; }
+        body #course .item .border .more a {
+          padding: 10px 10px 10px 32px;
+          background-color: #0466af;
+          border: #0466af;
+          border-radius: 4px;
+          color: #7ebeed;
+          font-size: 14px;
+          font-family: Arial; }
+
+body #loiIch {
+  background-color: #0466af;
+  height: 697px; }
+  body #loiIch h3 {
+    font-family: 'Myriad Pro';
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 70px;
+    text-align: center; }
+  body #loiIch p {
+    font-size: 14px;
+    color: #83beea;
+    text-align: center;
+    font-family: Arial;
+    padding-bottom: 55px; }
+  body #loiIch .item {
+    text-align: center; }
+    body #loiIch .item .title {
+      padding: 20px 113px 15px 113px; }
+      body #loiIch .item .title a {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Arial;
+        color: #fff; }
+        body #loiIch .item .title a:hover {
+          text-decoration: none; }
+    body #loiIch .item p {
+      font-size: 14px;
+      color: #83beea;
+      font-family: Arial;
+      padding: 0 75px 25px 75px; }
+    body #loiIch .item .more a {
+      padding: 10px 35px 10px 35px;
+      border: 1px solid #83beea;
+      border-radius: 3px;
+      font-size: 14px;
+      color: #83beea;
+      font-family: Arial; }
+      body #loiIch .item .more a:hover {
+        text-decoration: none; }
+
+body #seri {
+  height: 605px;
+  background-color: #f5f5f5; }
+  body #seri .slick-next:before {
+    content: url(../../../../pic/next1.png);
+    font-size: 20px;
+    color: #ffffff;
+    font: normal normal normal 14px/1 FontAwesome; }
+  body #seri .slick-next {
+    top: 123px;
+    right: 31px; }
+  body #seri .slick-prev:before {
+    content: url(../../../../pic/prv1.png);
+    font-size: 20px;
+    color: #ffffff;
+    font: normal normal normal 14px/1 FontAwesome; }
+  body #seri .slick-prev {
+    top: 123px;
+    left: 15px;
+    z-index: 999; }
+  body #seri .slick-dots li button:before {
+    font-size: 30px;
+    color: #0466af; }
+  body #seri h3 {
+    font-family: 'Myriad Pro';
+    color: #0466af;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 70px;
+    text-align: center; }
+  body #seri .img {
+    padding: 0 44% 50px 44%; }
+    body #seri .img img {
+      text-align: center;
+      background: none; }
+  body #seri .item {
+    height: 305px; }
+    body #seri .item .border {
+      box-shadow: 0px 2px 1px 1px #999; }
+      body #seri .item .border img {
+        width: 100%; }
+      body #seri .item .border .title {
+        padding: 25px 84px 15px 84px; }
+        body #seri .item .border .title a {
+          font-size: 16px;
+          font-weight: bold;
+          font-family: Arial;
+          color: #0466af; }
+          body #seri .item .border .title a:hover {
+            text-decoration: none; }
+      body #seri .item .border .view {
+        padding: 0 65px 35px 65px; }
+        body #seri .item .border .view p {
+          color: #666;
+          float: left; }
+        body #seri .item .border .view i {
+          padding-left: 5px; }
+
+body #feel {
+  text-align: center;
+  background: url(../../../../pic/bgr2.jpg) center no-repeat; }
+  body #feel h3 {
+    font-family: 'Myriad Pro';
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 35px;
+    text-align: center; }
+  body #feel p {
+    font-size: 14px;
+    color: #83beea;
+    text-align: center;
+    font-family: Arial;
+    padding-bottom: 55px; }
+  body #feel #page .js .slider-single > div:nth-child(1n+3) {
+    display: none; }
+  body #feel #page .js .slider-single.slick-initialized > div:nth-child(1n+3) {
+    display: block; }
+  body #feel #page .is-active {
+    opacity: 1 !important; }
+  body #feel #page .slider-current {
+    width: 120px;
+    height: 120px; }
+    body #feel #page .slider-current img {
+      width: 100%;
+      height: 100%; }
+  body #feel #page .slick-next:before {
+    content: url(../../../../pic/next.png);
+    font-size: 30px;
+    color: #ffffff; }
+  body #feel #page .slick-next {
+    top: 50px;
+    right: -110px; }
+  body #feel #page .slick-prev:before {
+    content: url(../../../../pic/prv.png);
+    font-size: 30px;
+    color: #ffffff; }
+  body #feel #page .slick-prev {
+    top: 50px;
+    left: -40px; }
+  body #feel #page .slick-slider {
+    margin-bottom: 0; }
+  body #feel #page .row .slider-nav {
+    padding-left: 88px;
+    width: 765px;
+    margin-left: 163px;
+    height: 100px; }
+    body #feel #page .row .slider-nav .item {
+      width: 0 !important;
+      padding-left: 137px;
+      opacity: 0.5; }
+  body #feel #page .row .slider-single {
+    color: #ffffff; }
+    body #feel #page .row .slider-single h4 {
+      font-size: 14px;
+      font-weight: bold;
+      padding-top: 30px; }
+    body #feel #page .row .slider-single .content {
+      font-size: 20px;
+      color: #ffffff;
+      padding: 0; }
+    body #feel #page .row .slider-single p {
+      color: #ffffff;
+      padding: 0 130px 130px 50px; }
+      body #feel #page .row .slider-single p a {
+        color: #83beea; }
+        body #feel #page .row .slider-single p a:hover {
+          text-decoration: none; }
+
+body #introduce {
+  background-color: #f5f5f5;
+  height: 370px;
+  padding-top: 30px; }
+  body #introduce .left img {
+    padding-left: 40px;
+    padding-top: 20px; }
+  body #introduce .right {
+    text-align: left; }
+    body #introduce .right h3 {
+      font-size: 24px large;
+      color: #333;
+      padding-bottom: 10px;
+      font-family: Arial;
+      font-weight: bold; }
+    body #introduce .right h4 {
+      color: #0466af;
+      text-transform: uppercase;
+      font-family: Arial;
+      font-size: 17px;
+      padding-bottom: 25px; }
+    body #introduce .right p {
+      padding-bottom: 25px; }
+    body #introduce .right .more a {
+      padding: 10px 35px 10px 35px;
+      color: #83beea;
+      background-color: #0466af;
+      border-radius: 4px; }
+      body #introduce .right .more a:hover {
+        text-decoration: none; }
+      body #introduce .right .more a i {
+        padding-left: 10px; }
+
+body #footer {
+  padding-top: 50px;
+  background-color: #000f1c; }
+  body #footer .left {
+    font-size: 13px;
+    color: #999999;
+    padding-right: 33px; }
+    body #footer .left strong {
+      color: #ffffff; }
+    body #footer .left img {
+      float: left;
+      padding-right: 10px; }
+    body #footer .left .top p {
+      padding-right: 64px; }
+    body #footer .left .top, body #footer .left .mid, body #footer .left .bottom {
+      padding-bottom: 25px; }
+  body #footer .right h3 {
+    font-size: 15px;
+    font-family: Arial;
+    color: #0466af;
+    padding-bottom: 20px; }
+  body #footer .right p {
+    padding-top: 30px;
+    color: #999; }
+
+/*
+    Có nhiều độ phân giải theo các màn hình từ smartphone, tablet, pc
+    320, 375, 414, 480, 568, 601, 640, 667, 736, 768, 800, 906, 1024, 1200, 1280, 1360, 1366 trở lên
+    Lấy chuẩn nhỏ nhất là 320 cho trường hợp smartphone dựng dọc rồi chia theo khoảng
+/*================Đối với Tất Thành code bản pc trước, vì vậy sẽ viết ngược từ to về bé như sau================*/
+/*css mặc định dành cho trường hợp pc 1360, 1366px trở lên*/
+@media (max-width: 1359px) {
+  body {
+    /*Bắt đầu từ 1200 tính tương ứng với trường hợp lớn hơn tablet - bắt đầu của PC - thường là 4 hoặc 5 cột*/ } }
+
+@media (max-width: 1199px) {
+  body {
+    margin: 0;
+    padding: 0;
+    /*Bắt đầu từ 1200 tính tương ứng với trường hợp tablet quay ngang - bắt đầu của PC - thường là 3 hoặc 4 cột*/ }
+  #header .top input {
+    display: none;
+    width: 0; }
+  #header .top .left p {
+    font-size: 12px; }
+  #header .bottom .logo {
+    float: left; }
+  #header .bottom #menu-button:before {
+    content: none; }
+  #header .bottom #menu-button:after {
+    content: none; }
+  #header .bottom #menu-button {
+    float: left; }
+  #loiIch img {
+    width: 100%; }
+  #seri .border {
+    height: 225px; }
+    #seri .border .title {
+      padding: 0px 0px 0px 0px !important; }
+    #seri .border .view {
+      padding: 0px 0px 0px 0px !important; }
+  #feel .slider-nav {
+    margin-left: 69px !important; }
+  #footer .left p {
+    font-size: 10px; }
+  #footer .right {
+    padding-left: 30px; } }
+
+@media (max-width: 991px) {
+  body {
+    /*Bắt đầu từ 768 tính tương ứng với trường hợp tablet dựng dọc - thường là 2 hoặc 3 cột*/ }
+  #footer .left p {
+    font-size: 10px; }
+  #footer .right {
+    padding-left: 40px; }
+  #seri button {
+    top: 30%; } }
+
+@media (max-width: 767px) {
+  body {
+    /*Bắt đầu từ 480 tính tương ứng với trường hợp mobile quay ngang - thường là 2 cột*/ } }
+
+@media (max-width: 479px) {
+  body {
+    /*Bắt đầu từ mobile, tức css viết ngoài cùng là css cho trường hợp mobile dựng dọc - thường là 1 cột, padding left right 15px*/ } }
+
