@@ -1,0 +1,1119 @@
+﻿body {
+    background: url('../../../../pic/bgrBody.jpg') no-repeat center;
+    background-size: cover;
+    height: auto;
+
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    h3 {
+        padding-left: 15px;
+    }
+
+    #header {
+        .center {
+            font-family: 'Times New Roman';
+
+            h4 {
+                font-weight: bold;
+                font-size: 20px;
+                color: #e4101c;
+                padding-top: 15px;
+                font-stretch: condensed;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        .right {
+            i {
+                float: left;
+                padding-top: 32px;
+            }
+
+            i {
+                font-size: 40px;
+            }
+
+            p {
+                float: left;
+                padding-top: 30px;
+            }
+
+            .logo2 {
+                margin-top: 30px;
+                float: right;
+            }
+        }
+    }
+
+    #menu {
+        background-image: url(../../../../pic/bgrMenu.jpg);
+        height: 40px;
+
+        #ttwmenu {
+            margin-top: 0;
+        }
+
+        .nav {
+            margin-top: 11px;
+
+            ul {
+                float: left;
+                display: inline-flex;
+                -webkit-padding-start: 0;
+                margin: 0;
+
+                li {
+                    list-style-type: none;
+
+                    a {
+                        font-size: 14px;
+                        font-family: 'Arimo', sans-serif;
+                        font-weight: bold;
+                        color: #ffffff;
+                        text-transform: uppercase;
+                        padding: 13px 20px 13px 20px;
+
+                        &:hover {
+                            background-color: #e4101c;
+                        }
+                    }
+
+                    .curent {
+                        background-color: #e4101c;
+                    }
+                }
+            }
+
+            .icon {
+                float: right;
+
+                i {
+                    padding-right: 20px;
+                    padding-top: 12px;
+                }
+            }
+        }
+
+        .dropbtn {
+            background: none !important;
+            color: black;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .dropdown {
+            position: relative;
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 300px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #56d6d0;
+        }
+
+        &:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+    }
+
+    #banner {
+        img {
+            width: 100%;
+        }
+
+        .banner {
+        }
+
+        .book {
+            background-color: #56d6d0;
+            opacity: 0.9;
+            margin-top: -122px;
+            padding-top: 20px;
+
+            &:after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+
+            .form {
+                height: 103px;
+                padding-right: 10px;
+                width: 20%;
+                float: left;
+
+                .title {
+                    font-family: 'Arimo', sans-serif;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #ffffff;
+                }
+
+                select {
+                    width: 100%;
+                    height: 30px;
+                }
+
+                .search {
+                    padding-top: 33px;
+
+                    a {
+                        padding: 7px 68px 7px 68px;
+                        background-color: #25909a;
+                        font-family: 'Arimo', sans-serif;
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: #ffffff;
+                    }
+                }
+            }
+
+            select {
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                appearance: none;
+                background: url(../../../../pic/btnDown.png) no-repeat right;
+                background-size: contain;
+                background-color: #fefefe;
+                padding-left: 10px;
+            }
+        }
+    }
+
+    #body {
+        padding-top: 30px;
+
+        .container {
+
+            h3 {
+                font-family: 'Arimo', sans-serif;
+                font-size: 30px;
+                color: #55c5d1;
+                text-transform: uppercase;
+                padding-top: 20px;
+                font-weight: normal;
+            }
+
+            .country {
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 17px;
+                    height: 32px;
+                    bottom: -802px;
+                    right: 108px;
+                    z-index: 100;
+                    background: url(../../../../pic/moc2.png) no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 17px;
+                    height: 32px;
+                    bottom: -802px;
+                    left: 108px;
+                    z-index: 100;
+                    background: url(../../../../pic/moc2.png) no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                border: 1px solid #808080;
+                height: 400px;
+                padding-bottom: 30px;
+                background: #ffffff;
+                border-radius: 3px;
+
+                p {
+                    font-size: 16px;
+                    font-family: 'Times New Roman';
+                    line-height: 24px;
+                    padding-bottom: 10px;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .tour {
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 17px;
+                    height: 32px;
+                    bottom: -1227px;
+                    right: 108px;
+                    z-index: 100;
+                    background: url(../../../../pic/moc2.png) no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 17px;
+                    height: 32px;
+                    bottom: -1227px;
+                    left: 108px;
+                    z-index: 100;
+                    background: url(../../../../pic/moc2.png) no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                margin-top: 10px;
+                border: 1px solid #808080;
+                height: 400px;
+                padding-bottom: 30px;
+                background: #ffffff;
+                border-radius: 3px;
+
+                .slick-next:before {
+                    content: "\f054";
+                    font-size: 20px;
+                    color: #ffffff;
+                    font: normal normal normal 14px/1 FontAwesome;
+                }
+
+                .slick-next {
+                    top: -50px;
+                    right: 1px;
+                    background-color: #999;
+                    border-radius: 2px;
+
+                    &:hover {
+                        background-color: #666;
+                    }
+                }
+
+                .slick-prev:before {
+                    content: "\f053";
+                    font-size: 20px;
+                    color: #ffffff;
+                    font: normal normal normal 14px/1 FontAwesome;
+                }
+
+                .slick-prev {
+                    top: -50px;
+                    left: 1097px;
+                    z-index: 999;
+                    border-radius: 2px;
+                    background-color: #999;
+
+                    &:hover {
+                        background-color: #666;
+                    }
+                }
+
+                h3 {
+                    padding-top: 0;
+                    padding-bottom: 25px;
+                }
+
+                padding-top: 40px;
+                height: 100%;
+                padding-bottom: 30px;
+
+                .item {
+                    text-align: center;
+
+                    img {
+                        margin-left: 16%;
+                    }
+
+                    p {
+                        text-align: center;
+                        padding-top: 15px;
+                    }
+
+                    del {
+                        padding-left: 10px;
+                        color: #999;
+                    }
+                }
+            }
+
+            .tourGuide {
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 17px;
+                    height: 32px;
+                    bottom: -2062px;
+                    right: 108px;
+                    z-index: 100;
+                    background: url(../../../../pic/moc2.png) no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 17px;
+                    height: 32px;
+                    bottom: -2062px;
+                    left: 108px;
+                    z-index: 100;
+                    background: url(../../../../pic/moc2.png) no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                margin-top: 10px;
+                border: 1px solid #808080;
+                height: 825px;
+                padding-bottom: 30px;
+                background: #ffffff;
+                border-radius: 3px;
+                padding-top: 30px;
+
+
+                .item {
+                    .khungAnh:before {
+                        padding-bottom: 0;
+                    }
+
+                    .khungAnh {
+                        height: 355px;
+
+                        .khungAnhCrop {
+                            width: 340px;
+                            height: 300px;
+
+                            .title {
+                                z-index: 9999;
+                                text-align: center;
+                                z-index: 999999;
+                                position: absolute;
+                                width: 100%;
+                                bottom: 0;
+
+                                a {
+                                    color: #ffffff;
+                                    font-family: 'Arimo', sans-serif;
+                                    font-size: 22px;
+                                }
+
+                                p {
+                                    color: #ffffff;
+                                    font-family: 'Arimo', sans-serif;
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+
+                        .curent {
+                            width: 732px;
+                        }
+                    }
+                }
+            }
+
+            .incentour {
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 17px;
+                    height: 32px;
+                    bottom: -2702px;
+                    right: 108px;
+                    z-index: 100;
+                    background: url(../../../../pic/moc2.png) no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 17px;
+                    height: 32px;
+                    bottom: -2702px;
+                    left: 108px;
+                    z-index: 100;
+                    background: url(../../../../pic/moc2.png) no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                margin-top: 10px;
+                border: 1px solid #808080;
+                height: 825px;
+                padding-bottom: 30px;
+                background: #ffffff;
+                border-radius: 3px;
+                padding-top: 30px;
+                margin-top: 10px;
+                border: 1px solid #808080;
+                height: 630px;
+                padding-bottom: 30px;
+                background: #ffffff;
+                border-radius: 3px;
+                padding-right: 15px;
+                padding-top: 15px;
+
+                h3 {
+                    padding-top: 10px;
+                    padding-left: 0;
+                }
+
+                .left {
+                    .title {
+                        font-size: 17px;
+                        color: #000000;
+                        font-family: 'Arimo', sans-serif;
+                    }
+
+                    p {
+                        font-size: 15px;
+                        text-align: justify;
+                        padding-right: 10px;
+                        color: #666;
+                    }
+
+                    img {
+                        padding-bottom: 20px;
+                    }
+
+                    .dong1 {
+                        padding-top: 30px;
+
+                        .item {
+                            img {
+                                padding-bottom: 20px;
+                            }
+                        }
+                    }
+
+                    .dong2 {
+                        padding-top: 30px;
+                    }
+                }
+
+                .right {
+                    background: #f2f2f2;
+                    padding-right: 10px;
+                    border-radius: 3px;
+
+                    .feelling {
+                        height: 446px;
+                        padding-left: 10px;
+
+                        .slick-prev:before {
+                            content: "\f053";
+                            display: inline-block;
+                            font: normal normal normal 14px/1 FontAwesome;
+                            color: #808080;
+                            font-size: 30px;
+                        }
+
+                        .slick-prev {
+                            left: 20px;
+                            z-index: 9999;
+                            top: 100px;
+                        }
+
+                        .slick-next:before {
+                            content: "\f054";
+                            display: inline-block;
+                            font: normal normal normal 14px/1 FontAwesome;
+                            color: #808080;
+                            font-size: 30px;
+                        }
+
+                        .slick-next {
+                            right: 30px;
+                            top: 100px;
+                        }
+
+                        .list {
+                            a {
+                                img {
+                                    margin-left: 75px;
+                                }
+                            }
+
+                            p {
+                                font-family: 'Arimo', sans-serif;
+                                text-align: center;
+                            }
+
+                            .name {
+                                font-size: 17px;
+                                color: #000000;
+                                padding-top: 20px;
+                            }
+
+                            .fa {
+                                color: #d6d6d6;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .news {
+                margin-top: 10px;
+                border: 1px solid #808080;
+                height: 630px;
+                padding-bottom: 30px;
+                background: #ffffff;
+                border-radius: 3px;
+                height: 520px;
+
+                .item {
+                    font-family: 'Arimo', sans-serif;
+
+                    .khungAnh:before {
+                        padding-bottom: 70%;
+                    }
+
+                    .khungAnh {
+                        width: 248px;
+
+                        .khungAnhCrop {
+                            width: 248px;
+                            height: 166px;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    .title {
+                        a {
+                            font-size: 18px;
+                            color: #000000;
+                        }
+
+                        padding-top: 20px;
+                        padding-bottom: 10px;
+                    }
+
+                    .view {
+                        color: #999;
+                    }
+                }
+            }
+        }
+    }
+
+    #footer {
+        background-color: #ffffff;
+        margin-top: 30px;
+        padding-top: 30px;
+
+        .top {
+            padding-bottom: 40px;
+
+            .item {
+                font-family: 'Arimo', sans-serif;
+
+                h4 {
+                    font-size: 16px;
+                    color: #56c5d0;
+                }
+
+                ul {
+                    list-style-type: none;
+                    -webkit-padding-start: 0;
+
+                    li {
+                        a {
+                            font-size: 15px;
+                            color: #a1a1a1;
+                            line-height: 25px;
+                            font-weight: normal;
+                        }
+                    }
+                }
+
+                .connect {
+                    /*height:20px; 
+                width:20px;
+                border:1px solid #808080;
+                border-radius:50%;*/
+                    float: left;
+                    padding-left: 10px;
+
+                    a {
+                        text-align: center;
+                        color: #808080;
+                        border: 1px solid #808080;
+                        border-radius: 50%;
+
+                        &:hover {
+                            color: #56c5d0;
+                        }
+                    }
+
+                    .fa-facebook {
+                        padding: 14px 18px 14px 18px;
+                    }
+
+                    .fa-youtube {
+                        padding: 13px 16px 15px 16px;
+                    }
+
+                    .fa-google-plus {
+                        padding: 13px 12px 15px 14px;
+                    }
+
+                    .fa-skype {
+                        padding: 15px 16px 14px 16px;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            .left {
+                padding-top: 30px;
+            }
+
+            .center {
+                h3 {
+                    font-family: 'Times New Roman';
+                    font-size: 18px;
+                    color: #54c5d0;
+                    font-weight: normal;
+                    padding-top: 20px;
+                }
+
+                p {
+                    font-size: 15px;
+                    font-family: 'Arimo', sans-serif;
+                }
+            }
+
+            .right {
+                padding-top: 30px;
+
+                h3 {
+                    font-size: 14px;
+                    font-family: 'Times New Roman';
+                    font-weight: bold;
+                    text-transform: none;
+                }
+
+                input {
+                    border-radius: 25px 0 0 25px;
+                    padding-left: 30px;
+                    border: 1px solid #808080;
+                    height: 35px;
+                }
+
+                a {
+                    padding: 9px 15px 8px 10px;
+                    border: 1px solid #808080;
+                    border-radius: 0 20px 20px 0;
+                    background-color: #e4101c;
+                    box-shadow: none !important;
+
+                    i {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+/*
+    Có nhi?u ?? phân gi?i theo các màn hình t? smartphone, tablet, pc
+    320, 375, 414, 480, 568, 601, 640, 667, 736, 768, 800, 906, 1024, 1200, 1280, 1360, 1366 tr? lên
+    L?y chu?n nh? nh?t là 320 cho tr??ng h?p smartphone d?ng d?c r?i chia theo kho?ng
+/*================??i v?i T?t Thành code b?n pc tr??c, vì v?y s? vi?t ng??c t? to v? bé nh? sau================*/
+/*css m?c ??nh dành cho tr??ng h?p pc 1360, 1366px tr? lên*/
+
+@media (max-width:1359px) {
+    /*B?t ??u t? 1200 tính t??ng ?ng v?i tr??ng h?p l?n h?n tablet - b?t ??u c?a PC - th??ng là 4 ho?c 5 c?t*/
+
+}
+
+
+@media (max-width:1199px) {
+    /*B?t ??u t? 992 tính t??ng ?ng v?i tr??ng h?p tablet quay ngang - th??ng là 3 ho?c 4 c?t*/
+    body {
+        #header {
+            .logo2 {
+                display: none;
+            }
+        }
+
+        #menu {
+
+            .nav {
+                display: none;
+            }
+
+            .dropdown {
+                display: inline-block;
+            }
+        }
+        #banner{
+             .slick-prev {
+                    display:none!important;
+                }
+
+                .slick-next {
+                  display:none!important;
+                }
+        }
+        #body {
+            .country {
+                &:before {
+                    bottom: -263px !important;
+                }
+
+                &:after {
+                    bottom: -263px !important;
+                }
+            }
+
+            .tour {
+                &:before {
+                    bottom: -688px !important;
+                }
+
+                &:after {
+                    bottom: -688px !important;
+                }
+
+                .slick-prev {
+                    left: 900px !important;
+                }
+
+                .slick-next {
+                    right: 38px !important;
+                }
+            }
+        }
+
+        .tourGuide {
+            &:before {
+                bottom: -1523px !important;
+            }
+
+            &:after {
+                bottom: -1523px !important;
+            }
+
+            .slick-prev {
+                left: 900px !important;
+            }
+
+            .slick-next {
+                right: 38px !important;
+            }
+
+            .khungAnh {
+                .khungAnhCrop {
+                    width: 100% !important;
+                }
+            }
+        }
+
+        .incentour {
+            &:before {
+                bottom: -2164px !important;
+            }
+
+            &:after {
+                bottom: -2164px !important;
+            }
+
+            .slick-prev {
+                left: 900px !important;
+            }
+
+            .right {
+                img {
+                    margin-left: 35px !important;
+                }
+
+                .slick-prev {
+                    left: 0px !important;
+                }
+
+                .slick-next {
+                    right: 0px !important;
+                }
+            }
+        }
+
+        .news {
+            .khungAnh {
+                width: auto !important;
+
+                .khungAnhCrop {
+                    width: 100% !important;
+                    height: 100% !important;
+                }
+            }
+        }
+    }
+
+    #footer {
+        .item {
+            .connect {
+                padding-left: 5px !important;
+            }
+        }
+
+        .bottom {
+            .right {
+                input {
+                    width: 160px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:991px) {
+    /*B?t ??u t? 768 tính t??ng ?ng v?i tr??ng h?p tablet d?ng d?c - th??ng là 2 ho?c 3 c?t*/
+    body {
+        .noneTablet {
+            display: none;
+        }
+
+        #banner {
+             .slick-prev {
+                    display:none!important;
+                }
+
+                .slick-next {
+                  display:none!important;
+                }
+            .book {
+                height: 154px !important;
+                margin-top: 0 !important;
+
+                .form {
+                    width: 25% !important;
+                }
+
+                .No {
+                    float: none !important;
+                }
+            }
+        }
+      
+        #body {
+            .country {
+                &:before {
+                    display: none;
+                }
+
+                &:after {
+                    display: none;
+                }
+            }
+
+            .tour {
+                &:before {
+                    display: none;
+                }
+
+                &:after {
+                    display: none;
+                }
+
+                .slick-prev {
+                    left: 640px !important;
+                }
+
+                .slick-next {
+                    right: 38px !important;
+                }
+            }
+
+            .tourGuide {
+                &:before {
+                    display: none;
+                }
+
+                &:after {
+                    display: none;
+                }
+            }
+
+            .incentour {
+                &:before {
+                    display: none;
+                }
+
+                &:after {
+                    display: none;
+                }
+
+                height: 1100px !important;
+                padding-right: 0px !important;
+                padding-top: 0px !important;
+
+                .right {
+                    img {
+                        margin-left: 244px !important;
+                    }
+                }
+            }
+            .news{
+                 &:before {
+                    display: none;
+                }
+
+                &:after {
+                    display: none;
+                }
+                height:950px!important;
+            }
+        }
+    }
+}
+
+@media (max-width:767px) {
+    /*B?t ??u t? 480 tính t??ng ?ng v?i tr??ng h?p mobile quay ngang - th??ng là 2 c?t*/
+    body{
+        #body{
+            .country{
+                height:690px!important;
+            }
+            .tour {
+             
+
+                .slick-prev {
+                    left: 562px !important;
+                }
+
+                .slick-next {
+                    right: 38px !important;
+                }
+                .item{
+                    img{
+                        margin-left:2%!important;
+                    }
+                }
+            }
+            .tourGuide{
+                height: 1600px!important;
+            }
+            .incentour{
+                height:1145px !important;
+                .right{
+                    img{
+                        margin-left:206px !important;
+                    }
+                }
+            }
+            .news{
+                 height: 2400px !important;
+            }
+        }
+    }
+}
+
+@media (max-width:479px) {
+    /*B?t ??u t? mobile, t?c css vi?t ngoài cùng là css cho tr??ng h?p mobile d?ng d?c - th??ng là 1 c?t, padding left right 15px*/
+
+    body{
+         #banner {
+             .slick-prev {
+                    display:none!important;
+                }
+
+                .slick-next {
+                  display:none!important;
+                }
+            .book {
+                height: 270px !important;
+                margin-top: 0 !important;
+
+                .form {
+                    width: 50% !important;
+                }
+
+                .No {
+                    float: none !important;
+                }
+            }
+        }
+         #body{
+             h3{
+                 font-size:20px!important;
+             }
+             .country{
+                 height:530px !important;
+             }
+              .tour {
+             
+
+                .slick-prev {
+                    left: 270px !important;
+                }
+
+                .slick-next {
+                    right: 38px !important;
+                }
+                .item{
+                    img{
+                        margin-left:24%!important;
+                    }
+                }
+            }
+              .tourGuide{
+                  height:1500px !important;
+              }
+              .incentour{
+                  height:1800px !important;
+                  .right{
+   
+                      
+                      img{
+                          margin-left:55px !important;
+                      }
+    
+                      }
+              }
+              .news{
+                  height:1750px !important;
+              }
+         }
+      
+    }
+}
