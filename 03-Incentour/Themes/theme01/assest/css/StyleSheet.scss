@@ -995,11 +995,11 @@
             }
             .news{
                  &:before {
-                    display: none;
+                    display: none!important;
                 }
 
                 &:after {
-                    display: none;
+                    display: none!important;
                 }
                 height:950px!important;
             }

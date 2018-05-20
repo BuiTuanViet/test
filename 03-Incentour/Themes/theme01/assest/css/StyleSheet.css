@@ -599,9 +599,9 @@ body {
   body #body .news {
     height: 950px !important; }
     body #body .news:before {
-      display: none; }
+      display: none !important; }
     body #body .news:after {
-      display: none; } }
+      display: none !important; } }
 
 @media (max-width: 767px) {
   /*B?t ??u t? 480 tính t??ng ?ng v?i tr??ng h?p mobile quay ngang - th??ng là 2 c?t*/
